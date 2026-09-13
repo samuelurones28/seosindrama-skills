@@ -145,7 +145,7 @@ escrito (es `Monday`, no `Lunes`), JSON inválido.
 ## Ejemplo mínimo
 
 Entrada: "Asesoría fiscal Gómez, Calle Santiago 12, 47001 Valladolid,
-teléfono 983 12 34 56, web asesoriagomez.es, abrimos de lunes a viernes de
+teléfono 983 12 34 56, web asesoria-gomez-ejemplo.es, abrimos de lunes a viernes de
 9 a 14 y de 16 a 19."
 
 ```html
@@ -153,9 +153,9 @@ teléfono 983 12 34 56, web asesoriagomez.es, abrimos de lunes a viernes de
 {
   "@context": "https://schema.org",
   "@type": "AccountingService",
-  "@id": "https://asesoriagomez.es/#negocio",
+  "@id": "https://asesoria-gomez-ejemplo.es/#negocio",
   "name": "Asesoría fiscal Gómez",
-  "url": "https://asesoriagomez.es",
+  "url": "https://asesoria-gomez-ejemplo.es",
   "telephone": "+34 983 123 456",
   "address": {
     "@type": "PostalAddress",
