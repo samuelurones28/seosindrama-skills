@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "@id": "https://ejemplo.es/#negocio",
+  "name": "Clínica Dental Ejemplo",
+  "alternateName": "Clínica Dental Ejemplo S.L.P.",
+  "description": "Clínica dental en Valladolid con odontología general, implantes y ortodoncia invisible. Primera consulta con diagnóstico y presupuesto cerrado.",
+  "url": "https://ejemplo.es",
+  "telephone": "+34 983 123 456",
+  "email": "citas@ejemplo.es",
+  "image": "https://ejemplo.es/img/clinica.jpg",
+  "logo": "https://ejemplo.es/img/logo.png",
+  "priceRange": "€€",
+  "medicalSpecialty": "Dentistry",
+  "isAcceptingNewPatients": true,
+  "availableService": [
+    {
+      "@type": "MedicalProcedure",
+      "name": "Implantes dentales"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Ortodoncia invisible"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Limpieza dental"
+    }
+  ],
+  "currenciesAccepted": "EUR",
+  "paymentAccepted": "Efectivo, Tarjeta, Financiación",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Paseo de Zorrilla 45, 1º",
+    "postalCode": "47007",
+    "addressLocality": "Valladolid",
+    "addressRegion": "Valladolid",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 41.6433,
+    "longitude": -4.7320
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "opens": "09:30",
+      "closes": "14:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "opens": "16:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Friday",
+      "opens": "09:30",
+      "closes": "14:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.doctoralia.es/clinica/ejemplo",
+    "https://www.instagram.com/clinicadentalejemplo"
+  ]
+}

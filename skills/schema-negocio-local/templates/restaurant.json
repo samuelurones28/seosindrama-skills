@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://ejemplo.es/#negocio",
+  "name": "Restaurante Ejemplo",
+  "description": "Cocina castellana de temporada en el centro de Valladolid. Lechazo asado en horno de leña, menú del día de lunes a viernes y carta de vinos de Ribera del Duero y Rueda.",
+  "url": "https://ejemplo.es",
+  "telephone": "+34 983 123 456",
+  "email": "reservas@ejemplo.es",
+  "image": [
+    "https://ejemplo.es/img/sala.jpg",
+    "https://ejemplo.es/img/lechazo.jpg"
+  ],
+  "logo": "https://ejemplo.es/img/logo.png",
+  "priceRange": "€€€",
+  "servesCuisine": ["Castellana", "Española"],
+  "menu": "https://ejemplo.es/carta",
+  "acceptsReservations": "https://ejemplo.es/reservas",
+  "currenciesAccepted": "EUR",
+  "paymentAccepted": "Efectivo, Tarjeta",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Plaza Mayor 3",
+    "postalCode": "47001",
+    "addressLocality": "Valladolid",
+    "addressRegion": "Valladolid",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 41.6519,
+    "longitude": -4.7285
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "13:30",
+      "closes": "16:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Thursday", "Friday", "Saturday"],
+      "opens": "20:30",
+      "closes": "23:30"
+    }
+  ],
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Terraza",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Accesible en silla de ruedas",
+      "value": true
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/restauranteejemplo",
+    "https://www.tripadvisor.es/Restaurant_Review-ejemplo"
+  ]
+}
